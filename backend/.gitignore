@@ -42,6 +42,10 @@ Thumbs.db
 .firebase/
 .firebaserc
 .firebase-tools.json
+firebase_key.txt
+
+# Temp files
+temp.wav
 
 # GitHub actions cache
 *.lock
