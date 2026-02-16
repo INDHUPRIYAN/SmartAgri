@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+firebase-admin
+python-multipart
+pyrebase4
+httpx
+requests
+python-dotenv
+google-auth
