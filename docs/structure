@@ -1,0 +1,51 @@
+SmartAgri/
+│── README.md                 
+│── .gitignore                
+│── package.json              
+│── requirements.txt          
+│── docker-compose.yml        
+│── docs/                     
+│
+├── frontend/                 
+│   ├── app/                  
+│   │   ├── (tabs)/           
+│   │   │   ├── index.tsx     
+│   │   │   ├── explore.tsx   
+│   │   │   ├── weather.tsx   
+│   │   │   ├── soil.tsx      
+│   │   │   ├── profile.tsx   
+│   │   │   └── productivity.tsx
+│   │   ├── _layout.tsx       
+│   │   └── not-found.tsx     
+│   │
+│   ├── assets/               
+│   ├── components/           
+│   ├── constants/            
+│   ├── hooks/                
+│   ├── services/             
+│   └── utils/                
+│
+├── backend/                  
+│   ├── main.py               
+│   ├── requirements.txt      
+│   ├── models/               
+│   │   ├── user.py           
+│   │   ├── soil.py           
+│   │   └── weather.py        
+│   ├── routes/               
+│   │   ├── user.py           
+│   │   ├── soil.py           
+│   │   ├── weather.py        
+│   │   └── productivity.py   
+│   ├── services/             
+│   │   ├── firebase.py       
+│   │   ├── gemini_ai.py      
+│   │   └── translator.py     
+│   └── utils/                
+│
+├── ai_models/                
+│   ├── plant_disease/        
+│   ├── soil_analysis/        
+│   └── productivity/         
+│
+├── scripts/

@@ -1,0 +1,18 @@
+export const ROUTES = {
+  HOME: 'Home',
+  WEATHER: 'Weather',
+  TOPCROP: 'TopCrop',
+  MYCROPS: 'MyCrops',
+  CHATBOT: 'ChatBot',
+  COMMUNITY: 'Community',
+  ABOUTAPP: 'AboutApp',
+  CHANGE_PASSWORD: 'ChangePassword',
+  DEVELOPERS: 'Developers',
+  DISEASE_DETECTION: 'DiseaseDetection',
+  PROFILE: 'Profile',
+  SETTINGS: 'Settings',
+  SOIL_HEALTH: 'SoilHealth',
+  SUSTAINABLE_FARMING: 'SustainableFarming',
+  SIGNIN: 'SignIn',
+  REGISTER: 'Register',
+};

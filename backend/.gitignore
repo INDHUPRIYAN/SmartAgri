@@ -1,0 +1,50 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/project settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# FastAPI / Uvicorn cache
+*.sqlite3
+
+# AI model files (large binaries)
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+
+# Firebase related
+.firebase/
+.firebaserc
+.firebase-tools.json
+
+# GitHub actions cache
+*.lock
+
+# Misc
+*.bak
